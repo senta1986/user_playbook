@@ -1,6 +1,7 @@
 ---
 - name: Create user with collection
   hosts: testing
+  become: true 
   collections:
     - rhel.user
   roles:

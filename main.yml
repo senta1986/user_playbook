@@ -1,7 +1,7 @@
 ---
-- name: Create user using collections
-  hosts: testing
+- name: create user 
+  hosts: webservers
   collections:
     - rhel.user
   roles:
-    - role: rhel.user.newuser
+    - rhel.user.newuser

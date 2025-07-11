@@ -1,6 +1,6 @@
 ---
 - name: update the content useing collection
-  hosts: testing
+  hosts: all
   collections:
     - rhel.user
   roles:

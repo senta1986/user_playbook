@@ -1,5 +1,5 @@
 ---
-- name: update the content useing collection
+- name: create user
   hosts: testing
   collections:
     - rhel.user

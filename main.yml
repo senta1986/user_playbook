@@ -1,5 +1,5 @@
 ---
-- name: create user
+- name: update using collection
   hosts: testing
   collections:
     - rhel.user

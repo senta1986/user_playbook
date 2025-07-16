@@ -1,6 +1,6 @@
 ---
-- name: update using collection
-  hosts: all
+- name: create users
+  hosts: testing
   collections:
     - rhel.user
   roles:
